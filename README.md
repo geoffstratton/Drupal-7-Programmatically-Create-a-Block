@@ -65,7 +65,7 @@ function YOUR-MODULE_block_configure($delta = '') {
  */
 function YOUR-MODULE_block_save($delta = '', $edit = array()) {
   if ($delta == 'YOUR-BLOCK-NAME') {
-    variable_set('YOUR-BLOCK-TEXT', $edit['YOUR-BLOCK-TEXT']);
+    variable_set('YOUR-BLOCK-TEXT', $edit['YOUR-BLOCK-NAME-FORM']);
   }
 }
 ```
